@@ -9,21 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>kotlin-with-aws</artifactId>
+    <artifactId>kotlin-with-aws-core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kotlin-with-aws</name>
-    <description>kotlin-with-aws</description>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>kotlin-with-aws-core</module>
-    </modules>
-
+    <name>kotlin-with-aws-core</name>
+    <description>kotlin-with-aws-core</description>
     <properties>
         <java.version>11</java.version>
         <kotlin.version>1.6.21</kotlin.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

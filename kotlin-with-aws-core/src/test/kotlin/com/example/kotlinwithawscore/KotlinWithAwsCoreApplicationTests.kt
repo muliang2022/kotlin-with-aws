@@ -1,10 +1,10 @@
-package com.example.kotlinwithaws
+package com.example.kotlinwithawscore
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class KotlinWithAwsApplicationTests {
+class KotlinWithAwsCoreApplicationTests {
 
     @Test
     fun contextLoads() {
